@@ -11,33 +11,52 @@ a img {
     clear: both;
 }
 
-/* Layout CSS */
-#Main {
-    margin: 20px auto;
-    width: 955px;
-}
-
-#PageComments {
-    background: #E9E9E9;
-    border: 1px solid #CCCCCC;
-    border-bottom: 0;
+html, body {
+    margin: 0;
     padding: 0;
-    margin: 0;
 }
 
-#PageComments li {
-    list-style: none;
-    padding: 5px;
-    margin: 0;
-    border-bottom: 1px dotted #bbb;
-}
-            
-#PageNumbers {
-    padding: 5px;
-    border: 1px solid #DDDDDD;
-    background: #E9E9E9;
+/* Layout CSS */
+body {
+    background: url(./../images/background.png) repeat-x;
 }
 
-#PageNumbers * {
-    padding: 0 5px;
+#Header {
+    position: relative;
+    
+    height: 64px;
+}
+
+#Logo {
+    background: url(./../images/logo.png) no-repeat;
+    
+    width: 252px;
+    height: 22px;
+    
+    padding-top: 42px;
+    
+    font-size: 10px;
+    
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    
+    cursor: default;
+}
+
+#Main {
+    margin: 0 auto;
+    width: 1003px;
+}
+
+#Footer {
+    border-top: 1px solid #C3C3C3;
+    
+    padding-top: 24px;
+}
+
+#Footer p {
+    width: 1003px;
+    
+    margin: 0 auto;
 }

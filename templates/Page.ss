@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
     <head>
-        <title>$Title.XML - $SiteConfig.Title.XML<% if $SiteConfig.Tagline %> - $SiteConfig.Tagline.XML<% end_if %></title>
-        $MetaTags(false)
+        <title>Code Bank Web Client - $CodeBankVersion</title>
         <% base_tag %>
         
         <% require themedCSS(layout) %>
@@ -12,16 +10,25 @@
     </head>
     <body class="typography">
         <div id="Main">
-            <% include Navigation %>
+            <div id="Header">
+                <div id="Logo">$CodeBankVersion</div>
+            </div>
             
             <div id="Content">
                 $Layout
             </div>
+            
+            <div class="clear"><!--  --></div>
         </div>
         
-        <% if $IsAdmin %>
-            $SilverStripeNavigator
-        <% end_if %>
+        <div id="Footer">
+            <p>
+                <%t CodeBank.COPYRIGHT "_Code Bank Copyright {year} Ed Chipman" year=$Now.Year %><br/>
+                <%t CodeBank.LICENSE "_Code Bank is licensed under a" %> <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank"><%t CodeBank.LICENSE_TYPE "_Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License" %></a><br/>
+                <%t CodeBank.LICENSE_WAVER "_Any part of the Code Bank license can be waived with permission from the copyright holder." %><br/><br/>
+                <%t CodeBank.BUILT_ON "_Code Bank is built on the SilverStipe Framework in combination with the Zend Framework, see the respective sites for copyright information on those frameworks" %>
+            </p>
+        </div>
         
         <script type="text/javascript"></script>
     </body>
