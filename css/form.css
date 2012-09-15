@@ -1,0 +1,106 @@
+/* GENERIC FORM STYLING */
+form fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.message.bad, .message.required, .message.validation {
+    background: #FED0D0 !important;
+    border: 4px solid #FF7373 !important;
+    margin: 0 0 15px 0 !important;
+    padding: 5px !important;
+    display: block;
+    color: #DC1313 !important;
+    
+    width: 292px;
+}
+
+.message.warning {
+    background: none repeat scroll 0 0 #FFFFEA !important;
+    border: 4px solid #F7F8B4 !important;
+    margin: 0 auto 15px auto !important;
+    padding: 5px !important;
+    color: #979908 !important;
+    
+    width: 292px;
+}
+
+.message.good, .message.success {
+    display: block;
+    background: none repeat scroll 0 0 #EAFFEC !important;
+    border: 4px solid #B4F8BC !important;
+    margin: 0 0 15px 0 !important;
+    padding: 5px !important;
+    color: #089916 !important;
+}
+
+form div.field {
+    clear: both;
+    
+    margin-top: 14px;
+}
+
+form p.field {
+    clear: both;
+}
+
+form div.middleColumn {
+    margin-top: 4px;
+}
+
+form label {
+    display: block;
+    font-size: 1.1em;
+    color: #000000;
+    
+    text-align: left !important;
+}
+
+form .field.checkbox label {
+    display: inline;
+}
+
+form label.FormHeading {
+    font-size: 1.3em;
+    color: #ff7200;
+    font-weight: bold;
+}
+
+form input.text, form textarea, form select {
+    width: 300px;
+    color: #000000 !important;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+}
+
+form input.numeric {
+    width: 20px;
+    background: #f0f0f0;
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+    color: #000;
+    margin-right: 4px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form input.year {
+    width: 35px;
+}
+
+form p.Actions {
+    text-align: right;
+    padding: 0 22px 15px 0;
+}
+
+form p.Actions input {
+    padding: 2px;
+}
+
+#MemberLoginForm_LoginForm #Remember label {
+    display: inline;
+}

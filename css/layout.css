@@ -1,0 +1,43 @@
+/* Global Resetting */
+a img {
+    border: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Layout CSS */
+#Main {
+    margin: 20px auto;
+    width: 955px;
+}
+
+#PageComments {
+    background: #E9E9E9;
+    border: 1px solid #CCCCCC;
+    border-bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#PageComments li {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    border-bottom: 1px dotted #bbb;
+}
+            
+#PageNumbers {
+    padding: 5px;
+    border: 1px solid #DDDDDD;
+    background: #E9E9E9;
+}
+
+#PageNumbers * {
+    padding: 0 5px;
+}
