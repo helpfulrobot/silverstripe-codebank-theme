@@ -2,4 +2,4 @@ eclipse.preferences.version=1
 include_path=0;/Code Bank Server (SilverStripe theme)
 silverstripe_framework_model=cms
 silverstripe_site_base=http\://localhost/silverstripe-codebank
-silverstripe_version=SS3.0
+silverstripe_version=SS3.1
