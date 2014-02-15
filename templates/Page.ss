@@ -24,7 +24,7 @@
         <div id="Footer">
             <p>
                 <%t CodeBank.COPYRIGHT "_Code Bank Copyright {year} Ed Chipman" year=$Now.Year %><br/>
-                <%t CodeBank.LICENSE "_Code Bank is licensed under a" %> <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank"><%t CodeBank.LICENSE_TYPE "_Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License" %></a><br/>
+                <%t CodeBank.LICENSE "_Code Bank is licensed under a" %> <a href="https://github.com/UndefinedOffset/silverstripe-codebank/blob/master/LICENSE" target="_blank"><%t CodeBank.LICENSE_TYPE "_BSD 3.0 Clause" %></a><br/>
                 <%t CodeBank.LICENSE_WAVER "_Any part of the Code Bank license can be waived with permission from the copyright holder." %><br/><br/>
                 <%t CodeBank.BUILT_ON "_Code Bank is built on the SilverStipe Framework in combination with the Zend Framework, see the respective sites for copyright information on those frameworks" %>
             </p>
